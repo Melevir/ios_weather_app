@@ -9,13 +9,13 @@
 import Foundation
 
 struct WeatherResponse: Decodable {
-  struct MainWeather: Decodable {
-    let temp: Double
-  }
-  struct Weather: Decodable {
-    let main: String
-  }
-  let coord: [String: Double]
-  let main: MainWeather
-  let weather: [Weather]
+    struct MainWeather: Decodable {
+        let temp: Double
+    }
+    struct Weather: Decodable {
+        let main: String
+    }
+    let coord: [String: Double]
+    let main: MainWeather
+    let weather: [Weather]
 }
