@@ -47,9 +47,6 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="sFo-jG-rDG" appends="YES" id="2By-9g-maM"/>
-                        </connections>
                     </view>
                     <connections>
                         <outlet property="cityNameTextField" destination="gjF-hC-4B5" id="wq1-ih-trY"/>
@@ -59,11 +56,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="sFo-jG-rDG">
-                    <connections>
-                        <action selector="swipeAction:" destination="BYZ-38-t0r" id="avo-az-nT1"/>
-                    </connections>
-                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>

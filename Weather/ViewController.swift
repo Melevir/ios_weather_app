@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(updateWeatherData), for: .valueChanged)
         scrollView.refreshControl = refreshControl
+
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: Selector(("swipeAction:")))
+        swipeRight.direction = .right
+        self.view.addGestureRecognizer(swipeRight)
     }
 
     @objc private func updateWeatherData(refreshControl: UIRefreshControl) {
@@ -33,7 +37,7 @@ class ViewController: UIViewController {
         refreshControl.endRefreshing()
     }
 
-    @IBAction private func swipeAction(_ sender: UISwipeGestureRecognizer) {
+    @objc private func swipeAction(_ sender: UIGestureRecognizer) {
         fetchAndShowDataFor(cities.randomElement()!)
     }
 
