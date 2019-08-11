@@ -30,8 +30,8 @@
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="60"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Mist" textAlignment="center" minimumFontSize="70" translatesAutoresizingMaskIntoConstraints="NO" id="vhy-sO-YeD">
-                                <rect key="frame" x="20" y="668" width="374" height="215"/>
+                            <textField opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Mist" textAlignment="center" minimumFontSize="70" translatesAutoresizingMaskIntoConstraints="NO" id="vhy-sO-YeD">
+                                <rect key="frame" x="60" y="712" width="294" height="168"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="140"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -43,7 +43,6 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="gjF-hC-4B5" firstAttribute="top" secondItem="Kli-XU-HXv" secondAttribute="bottom" id="2Sf-00-MtT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vhy-sO-YeD" secondAttribute="trailing" constant="60" id="4Wy-Le-wau"/>
                             <constraint firstItem="ICB-UO-qtf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="18" id="5zw-Cp-81m"/>
                             <constraint firstItem="gjF-hC-4B5" firstAttribute="top" secondItem="Kli-XU-HXv" secondAttribute="bottom" constant="-44" id="9Mk-CY-Rhz"/>
